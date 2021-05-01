@@ -14,6 +14,12 @@
 		82BC9FC8263D448700968071 /* ios_develop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 82BC9FC6263D448700968071 /* ios_develop.xcdatamodeld */; };
 		82BC9FCA263D448800968071 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BC9FC9263D448800968071 /* Assets.xcassets */; };
 		82BC9FCD263D448800968071 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BC9FCB263D448800968071 /* LaunchScreen.storyboard */; };
+		82CAFB9C263D4C1A00255AB2 /* paw_off.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CAFB9A263D4C1A00255AB2 /* paw_off.png */; };
+		82CAFB9D263D4C1A00255AB2 /* paw_on.png in Resources */ = {isa = PBXBuildFile; fileRef = 82CAFB9B263D4C1A00255AB2 /* paw_on.png */; };
+		82CAFBA1263D509E00255AB2 /* cat-2.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82CAFB9E263D509E00255AB2 /* cat-2.jpeg */; };
+		82CAFBA2263D509E00255AB2 /* cat-1.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82CAFB9F263D509E00255AB2 /* cat-1.jpeg */; };
+		82CAFBA3263D509E00255AB2 /* cat-3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 82CAFBA0263D509E00255AB2 /* cat-3.jpeg */; };
+		82CAFBA5263D50AA00255AB2 /* MissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82CAFBA4263D50AA00255AB2 /* MissionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		82BC9FC9263D448800968071 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82BC9FCC263D448800968071 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82BC9FCE263D448800968071 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82CAFB9A263D4C1A00255AB2 /* paw_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paw_off.png; sourceTree = "<group>"; };
+		82CAFB9B263D4C1A00255AB2 /* paw_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paw_on.png; sourceTree = "<group>"; };
+		82CAFB9E263D509E00255AB2 /* cat-2.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cat-2.jpeg"; sourceTree = "<group>"; };
+		82CAFB9F263D509E00255AB2 /* cat-1.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cat-1.jpeg"; sourceTree = "<group>"; };
+		82CAFBA0263D509E00255AB2 /* cat-3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "cat-3.jpeg"; sourceTree = "<group>"; };
+		82CAFBA4263D50AA00255AB2 /* MissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,11 @@
 		82BC9FBC263D448700968071 /* ios_develop */ = {
 			isa = PBXGroup;
 			children = (
+				82CAFB9A263D4C1A00255AB2 /* paw_off.png */,
+				82CAFB9B263D4C1A00255AB2 /* paw_on.png */,
+				82CAFB9F263D509E00255AB2 /* cat-1.jpeg */,
+				82CAFB9E263D509E00255AB2 /* cat-2.jpeg */,
+				82CAFBA0263D509E00255AB2 /* cat-3.jpeg */,
 				82BC9FBD263D448700968071 /* AppDelegate.swift */,
 				82BC9FBF263D448700968071 /* SceneDelegate.swift */,
 				82BC9FC1263D448700968071 /* ViewController.swift */,
@@ -66,6 +83,7 @@
 				82BC9FCB263D448800968071 /* LaunchScreen.storyboard */,
 				82BC9FCE263D448800968071 /* Info.plist */,
 				82BC9FC6263D448700968071 /* ios_develop.xcdatamodeld */,
+				82CAFBA4263D50AA00255AB2 /* MissionViewController.swift */,
 			);
 			path = ios_develop;
 			sourceTree = "<group>";
@@ -127,9 +145,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				82CAFB9C263D4C1A00255AB2 /* paw_off.png in Resources */,
 				82BC9FCD263D448800968071 /* LaunchScreen.storyboard in Resources */,
 				82BC9FCA263D448800968071 /* Assets.xcassets in Resources */,
 				82BC9FC5263D448700968071 /* Main.storyboard in Resources */,
+				82CAFBA2263D509E00255AB2 /* cat-1.jpeg in Resources */,
+				82CAFB9D263D4C1A00255AB2 /* paw_on.png in Resources */,
+				82CAFBA3263D509E00255AB2 /* cat-3.jpeg in Resources */,
+				82CAFBA1263D509E00255AB2 /* cat-2.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +167,7 @@
 				82BC9FC8263D448700968071 /* ios_develop.xcdatamodeld in Sources */,
 				82BC9FBE263D448700968071 /* AppDelegate.swift in Sources */,
 				82BC9FC0263D448700968071 /* SceneDelegate.swift in Sources */,
+				82CAFBA5263D50AA00255AB2 /* MissionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
